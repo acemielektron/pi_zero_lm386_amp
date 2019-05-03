@@ -8,11 +8,15 @@ Although PAM8403 is likely most used amp in diy projects as i already had lm386 
 I have already mentioned the noise and despite band pass filter there is unbearable noise to hear acceptable sounds from rpi0 you need to change config.txt in BOOT partition as follows:
 
 <i>
-<p>#pwm-audio on gpio 18 and 13</p>
-<p>##dtoverlay=pwm-2chan,pin=18,func=2,pin2=13,func2=4</p>
-<p>dtoverlay=pwm,pin=13,func=4</p>
-<p>disable_audio_dither=1</p>
-<p>audio_pwm_mode=1</p>
+#pwm-audio on gpio 18 and 13
+  
+##dtoverlay=pwm-2chan,pin=18,func=2,pin2=13,func2=4
+
+dtoverlay=pwm,pin=13,func=4
+
+disable_audio_dither=1
+
+audio_pwm_mode=1
 </i>
 
 <i>"audio_pwm_mode=1"</i> and <i>"disable_audio_dither=1"</i> suppress noise. Commented out configuration is for two channel output which is not necessary for mono LİM386 amp.
