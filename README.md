@@ -9,13 +9,9 @@ I have already mentioned the noise and despite band pass filter there is unbeara
 
 <i>
 #pwm-audio on gpio 18 and 13
-  
 ##dtoverlay=pwm-2chan,pin=18,func=2,pin2=13,func2=4
-
 dtoverlay=pwm,pin=13,func=4
-
 disable_audio_dither=1
-
 audio_pwm_mode=1
 </i>
 
