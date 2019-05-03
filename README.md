@@ -15,7 +15,7 @@ disable_audio_dither=1<br>
 audio_pwm_mode=1<br>
 </i>
 
-Settings <i>"audio_pwm_mode=1"</i> and <i>"disable_audio_dither=1"</i> for suppressing noise. Commented out configuration is for two channel output which is not necessary for mono LM386 amp.
+<br>Settings <i>"audio_pwm_mode=1"</i> and <i>"disable_audio_dither=1"</i> for suppressing noise. Commented out configuration is for two channel output which is not necessary for mono LM386 amp.
 
 <img src="/resim2.jpg" alt="lm386 amp top side" style="width:128px;height:128px;">
 
