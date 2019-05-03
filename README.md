@@ -10,7 +10,7 @@ PAM8403 based stereo amp board which is both cheap and small.
 Although PAM8403 is likely most used amp in diy projects as i already had lm386 ic i decided to use it. So i designed a compact pcb based on
 lm386 for placing in an diy handheld gaming console housing.
 
-<img src="/resim2.jpg" alt="lm386 amp top side" style="width:294px;height:297px;>
+<img src="/resim2.jpg" alt="lm386 amp top side" style="width:294px;height:297px;">
 
 <img src="/resim3.jpg" alt="lm386 amp bottom side">
 
